@@ -5,6 +5,7 @@
 #include "Framework/Input.h"
 #include <string>
 #include <iostream>
+#include "Player.h"
 
 
 class Level : public BaseLevel{
@@ -18,5 +19,5 @@ public:
 
 private:
 	// Default variables for level class.
-	
+	Player* player;
 };
